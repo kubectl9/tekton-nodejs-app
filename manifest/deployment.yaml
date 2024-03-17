@@ -14,7 +14,7 @@ spec:
    spec:                  
      containers:
      - name: nodejs-app
-       image: skp0310/node-app:latest
+       image: olmeclaventa18/nodejs-app:latest
        ports:
        - containerPort: 4000
 ---
@@ -28,4 +28,5 @@ spec:
     app: nodejs-app
   ports:
     - port: 80
-      targetPort: 4000
+      targetPort: 8081
+      nodePort: 30001
