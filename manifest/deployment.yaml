@@ -28,5 +28,4 @@ spec:
     app: nodejs-app
   ports:
     - port: 80
-      targetPort: 8081
-      nodePort: 30001
+      targetPort: 4000
