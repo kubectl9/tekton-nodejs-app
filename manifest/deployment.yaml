@@ -14,7 +14,7 @@ spec:
    spec:                  
      containers:
      - name: nodejs-app
-       image: olmeclaventa18/nodejs-app:latest
+       image: tekton9/nodejs-app:latest
        ports:
        - containerPort: 4000
 ---
