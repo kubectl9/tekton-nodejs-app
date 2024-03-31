@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Tekton demo!')
+    res.redirect('https://tekton.dev/'); 
 })
 
 app.listen(4000, () => {
