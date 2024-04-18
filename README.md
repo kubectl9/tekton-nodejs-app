@@ -1,6 +1,7 @@
 ![image](https://github.com/kubectl9/tekton-nodejs-app/assets/162479110/5c4d99ca-75ea-4896-8e21-af1d4c77a390)
 
 Install Kubernetes Dashboard:
+
 kubectl get nodes
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
